@@ -15,7 +15,7 @@
     "noUnusedLocals": false,
     "noImplicitReturns": true
   },
-  "include": ["src/**/*", "test/**/*", "tools/**/*", "index.d.ts"],
+  "include": ["src/**/*", "test/**/*", "tools/**/*", "tree-sitter.d.ts"],
   "exclude": [
     "tools/extract_curl_args.py",
     "test/fixtures/**/*.*",
