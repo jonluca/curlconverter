@@ -2,8 +2,8 @@ import URL from "url";
 
 import nunjucks from "nunjucks";
 
-import parser from "./bash-parser.js";
-import type { Parser } from "./bash-parser.js";
+import parser from "./bash-parser-web.js";
+import type { Parser } from "./bash-parser-web.js";
 
 const env = nunjucks.configure(["templates/"], {
   // set folders with templates
